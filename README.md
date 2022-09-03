@@ -22,7 +22,7 @@ The console is the first segment of the AirBnB project at ALX that will collecti
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
 ## Installation
-* Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
+* Clone this repository: `git clone "https://github.com/sheilaowiso/AirBnB_clone.git"`
 * Access AirBnb directory: `cd AirBnB_clone`
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
@@ -125,49 +125,3 @@ TestBaseModel class:
 * `def test_pep8_conformance_test_user(self)` - Test that tests/test_models/test_user.py conforms to PEP8
 * `def test_user_module_docstring(self)` - Test for the user.py module docstring
 * `def test_user_class_docstring(self)` - Test for the User class docstring
-
-
-## Examples of use
-```
-vagrantAirBnB_clone$./console.py
-(hbnb) help
-
-Documented commands (type help <topic>):
-========================================
-EOF  all  create  destroy  help  quit  show  update
-
-(hbnb) all MyModel
-** class doesn't exist **
-(hbnb) create BaseModel
-7da56403-cc45-4f1c-ad32-bfafeb2bb050
-(hbnb) all BaseModel
-[[BaseModel] (7da56403-cc45-4f1c-ad32-bfafeb2bb050) {'updated_at': datetime.datetime(2017, 9, 28, 9, 50, 46, 772167), 'id': '7da56403-cc45-4f1c-ad32-bfafeb2bb050', 'created_at': datetime.datetime(2017, 9, 28, 9, 50, 46, 772123)}]
-(hbnb) show BaseModel 7da56403-cc45-4f1c-ad32-bfafeb2bb050
-[BaseModel] (7da56403-cc45-4f1c-ad32-bfafeb2bb050) {'updated_at': datetime.datetime(2017, 9, 28, 9, 50, 46, 772167), 'id': '7da56403-cc45-4f1c-ad32-bfafeb2bb050', 'created_at': datetime.datetime(2017, 9, 28, 9, 50, 46, 772123)}
-(hbnb) destroy BaseModel 7da56403-cc45-4f1c-ad32-bfafeb2bb050
-(hbnb) show BaseModel 7da56403-cc45-4f1c-ad32-bfafeb2bb050
-** no instance found **
-(hbnb) quit
-```
-
-## 🐞 Bugs
-No known bugs at this time. 
-
-## 🧑‍💻 Authors
-Original project: 
-- Joann Vuong - [GitHub](https://github.com/jvpupcat)
-
-AirBnB_clone_v2 forked from [this repository](https://github.com/alexaorrico/AirBnB_clone_v2) wrote by:
-- Alexa Orrico - [GitHub](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
-- Jennifer Huang - [GitHub](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
-
-AirBnB_clone_v3 forked from [this repository](https://github.com/jzamora5/AirBnB_clone_v3) wrote by:
-- Jhoan Stiven Zamora Caicedo - [GitHub](https://github.com/jzamora5)
-- David Ovalle Ariza - [GitHub](https://github.com/Nukemenonai)
-
-Improved by:
-- Thibaud Poncin - [GitHub](https://github.com/ThibaudP) / [Twitter](https://twitter.com/ThibaudPoncin)  
-- Pierre Forcioli - [GitHub](https://github.com/pforciol) / [Twitter](https://twitter.com/pierreforcioli)
-
-## ⚖️ License
-Public Domain. No copy write protection. 
